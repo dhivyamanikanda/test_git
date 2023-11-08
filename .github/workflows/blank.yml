@@ -29,8 +29,8 @@ jobs:
           mkdir SampleRepo
 
       # Install node
-      - uses: actions/checkout@v3
       - name: Install NodeJS
+        uses: actions/checkout@v3
         with:
           node-version: '17.x'
           
@@ -48,9 +48,7 @@ jobs:
 
       # Publish report
       - name: Publish report
-      - uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           name: Reports
           path: SampleRepo
-  
-
