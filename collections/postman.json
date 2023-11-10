@@ -1,27 +1,28 @@
-
 {
 	"info": {
-		"_postman_id": "2979a95d-ec7d-49b5-9f0f-9c8e28bc5dbc",
-		"name": "gits",
+		"_postman_id": "29c808e2-3166-4538-ae90-2971c01614d2",
+		"name": "New Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "3123253"
 	},
 	"item": [
 		{
-			"name": "GET Gist",
+			"name": "https://cat-fact.herokuapp.com/facts/",
 			"request": {
 				"method": "GET",
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
+				"header": [],
 				"url": {
-					"raw": "https://cat-fact.herokuapp.com/facts/"
+					"raw": "https://cat-fact.herokuapp.com/facts/",
+					"protocol": "https",
+					"host": [
+						"cat-fact",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"facts",
+						""
+					]
 				}
 			},
 			"response": []
