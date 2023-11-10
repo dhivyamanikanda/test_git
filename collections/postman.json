@@ -7,7 +7,25 @@
 	},
 	"item": [
 		{
-			"name": "https://cat-fact.herokuapp.com/facts/",
+			"name": "Samp",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"  pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"host": true
+				}
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
