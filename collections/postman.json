@@ -40,7 +40,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://merchants-admin.k8s-eu-central-1-theta.internal.sam-app.ro/merchants/MXDSLYM2",
+					"raw": "https://merchants-admin.k8s-eu-central-1-theta.internal.sam-app.ro/merchants/MXDSLYM2"
 				}
 			},
 			"response": []
