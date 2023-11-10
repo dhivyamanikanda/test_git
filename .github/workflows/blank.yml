@@ -44,7 +44,7 @@ jobs:
       # Runs collection
       - name: Run collection
         run: |
-          newman run "collections/postman.json" -e "collections/env.json" -r htmlextra --reporter-htmlextra-export SampleRepo/report.html
+          newman run "collections/postman.json" -e "collections/env.json"
 
       # Publish report
       - name: Publish report
