@@ -44,7 +44,7 @@ jobs:
       # Runs collection
       - name: Run collection
         run: |
-          newman run "collections/postman.json" -e "collections/env.json"
+          newman run "collections/postman.json" -environment "collections/env.json"
 
       # Publish report
       - name: Publish report
