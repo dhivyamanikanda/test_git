@@ -29,16 +29,6 @@
 				}
 			},
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "value": "{{token}}",
-							"type": "string"
-						}
-					]
-				},
 				"method": "GET",
 				"header": [
 					{
@@ -49,6 +39,11 @@
 					{
 						"key": "X-GitHub-Api-Version",
 						"value": "2022-11-28",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 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",
 						"type": "text"
 					}
 				],
