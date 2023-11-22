@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "29c808e2-3166-4538-ae90-2971c01614d2",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3123253"
+	},
+	"item": [
+		{
+			"name": "Samp",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"  pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"host": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/gists/c0a0d4411e6d5f164973fc6e2a8a2f6f",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"gists",
+						"c0a0d4411e6d5f164973fc6e2a8a2f6f"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
